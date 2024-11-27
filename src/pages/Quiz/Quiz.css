@@ -1,0 +1,25 @@
+.section-title span{
+    color: hotpink;
+}
+.form-quiz{
+    text-align: center;
+}
+.form-quiz__item{
+    margin-bottom: 20px;
+
+}
+.form-quiz__question{
+    font-weight: 700;
+    text-align: left;
+
+}
+.form-quiz__answers {
+    text-align: left;
+}
+
+.form-quiz__btn{
+    background-color: hotpink;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}

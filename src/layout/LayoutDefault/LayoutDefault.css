@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.layout-default__main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin-top: 60px;
+}
+
+.layout-default__header{
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.menu{
+   
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layout-default__logo{
+    margin-left: 50px;
+    width: 20%;
+}
+.layout-default__logo img{
+    scale: 2;
+    width: 30%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: center;
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    /* margin-right: 20px; */
+} 
+
+.menu ul li{
+    padding: 0 10px;
+    list-style: none;
+    flex: 1;
+}
+
+.menu li a, .layout-default__account a {
+    text-decoration: none;
+    color: var(--title-color);
+    padding: 8px;
+    border-radius: 5px;
+    /* border: 1px solid var(--title-color); */
+   
+}
+.layout-default__account a{
+    margin-right: 10px;
+}
+.menu li a.active, .layout-default__account a.active{
+    color: white;
+    background-color: pink;
+    border: 1px solid pink;
+}
+
+.menu li a:hover, .layout-default__account a:hover {
+    color: white;
+    background-color: pink;
+    border: 1px solid pink;
+}
+
+.layout-default__footer{
+    background-color: var(--title-color);
+    text-align: center;
+    color: aliceblue;
+}

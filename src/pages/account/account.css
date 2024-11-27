@@ -1,0 +1,33 @@
+.account{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  position: relative;
+}
+.btn{
+  background-color: transparent;
+  color:  hotpink;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 60px;
+  bottom: -30px;
+}
+.btn:hover{
+  color: var(--title-color);
+}
+.acc-info h5{
+  color: var(--title-color);
+}
+.acc-avatar{
+  width: 24%;
+}
+.acc-info{
+  width: 24%;
+}
+
+.acc-avatar img{
+  border-radius: 50%;
+}

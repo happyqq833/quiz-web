@@ -1,0 +1,24 @@
+ /* .quiz__question{
+    color: var(--title-color);
+ } */
+  .result__item{
+    margin-bottom: 20px;
+  }
+  .quiz__answer{
+    display: flex;
+  }
+ 
+ .result__tag--true{
+    color: green;
+}
+.result__tag--false{
+    color: red;
+}
+
+.result__item--selected{
+    color: red;
+}
+
+.result__item--result{
+    color: green;
+}

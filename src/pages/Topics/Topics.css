@@ -1,0 +1,36 @@
+.topic-card{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.topic-card__item{
+    margin: 30px;
+    width: 30%;
+    border-radius: 5px;
+}
+.topic-card__item .topic-card__item-img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.topic-card__item .topic-card__item-desc{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #ddd;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 8px;
+}
+.topic-card__item-name{
+    color: var(--title-color);
+    font-weight: 700;
+}
+.topic-card__item-btn a{
+    color: hotpink;
+}

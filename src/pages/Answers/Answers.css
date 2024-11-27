@@ -1,0 +1,31 @@
+.answers-table{
+    margin-top: 30px;
+    min-width: 800px;
+ 
+}
+.answers-table thead tr {
+    color: hotpink;
+    
+}
+.answers-table thead tr th {
+    border-bottom: 1px solid hotpink;
+    height: 40px;
+}
+
+.answers-table--title tr td{
+    text-align: center;
+    
+}
+.answers-table tbody td{
+    height: 50px;
+}
+
+.answers-table tbody td a:hover{
+    color: antiquewhite;
+    background-color: hotpink;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+
+
